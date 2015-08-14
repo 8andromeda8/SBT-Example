@@ -21,7 +21,7 @@ libraryDependencies ++= Seq(
 
 publishTo := {
 
-  val nexus = "http://nexus.seven4n.com/content/repositories/s4n-capacitaciones/sbt"
+  val nexus = "http://nexus.seven4n.com/content/repositories/s4n-capacitaciones/"
 
   if (version.value.trim.endsWith("SNAPSHOT"))
     Some("Nexus Snapshots" at nexus + "content/repositories/snapshots")
