@@ -21,12 +21,12 @@ libraryDependencies ++= Seq(
 
 publishTo := {
 
-  val nexus = "http://nexus.seven4n.com/content/repositories/s4n-capacitaciones/"
+  val nexus = "http://nexus.seven4n.com/"
 
   if (version.value.trim.endsWith("SNAPSHOT"))
-    Some("Nexus Snapshots" at nexus + "content/repositories/snapshots")
+    Some("Nexus Snapshots" at nexus + "content/repositories/s4n-capacitaciones/")
   else
-    Some("Nexus Releases" at nexus + "content/repositories/releases")
+    Some("Nexus Releases" at nexus + "content/repositories/s4n-capacitaciones/")
 }
 
 credentials += Credentials("Sonatype Nexus Repository Manager", "alexandra" , "afiliaciones" , "afiliaciones")
