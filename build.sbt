@@ -29,4 +29,4 @@ publishTo := {
     Some("Nexus Releases" at nexus + "content/repositories/releases")
 }
 
-credentials += Credentials("Sonatype Nexus Repository Manager", "alexandra" , "s4n-capacitaciones" , "capacitaciones")
+credentials += Credentials("Sonatype Nexus Repository Manager", "alexandra" , "afiliaciones" , "afiliaciones")
