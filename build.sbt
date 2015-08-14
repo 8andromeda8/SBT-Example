@@ -30,4 +30,3 @@ publishTo := {
 }
 
 credentials += Credentials("Sonatype Nexus Repository Manager", "alexandra" , "s4n-capacitaciones" , "capacitaciones")
-    
